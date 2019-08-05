@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-    $("#ThemeNavWrapper").hide();
-	window.historyGoURL="/";
 	//活动规则
     let end,round= 2,ms = 150; //round表示转几圈后开始抽奖，ms控制抽奖转圈速度，//end表示抽到的积分或者券
 
