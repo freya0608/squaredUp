@@ -1,0 +1,84 @@
+body {
+  background-color: #980002;
+}
+.main{
+    position: relative;
+
+}
+.game{
+    /*background-image: url("/image_site/event/2019/06/squaredUp/img/bg.png");*/
+}
+.bg-img{
+    height: 100vh;
+     pointer-events: none;
+}
+.game-bg{
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    top: 49%;
+}
+.nomal, .quan-border{
+    /*position: absolute;*/
+    /*width: 98%;*/
+    /*left: 2%;*/
+    /*top: 41%;*/
+}
+.nomal{
+     background-image: url("./img/border.png");
+     position: absolute;
+     width: 90%;
+     left: 5%;
+     top: 40%;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
+.quan-border{
+    background-image: url("./img/border.png");
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 40%;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+.chou{
+    margin-top: 0.3rem;
+}
+.quanNomal{
+    /*z-index: 2;*/
+}
+.game-bar, .game-top,  .nomal, .quan-border{
+    pointer-events: none;
+}
+.quan img {
+    position: absolute;
+    width: 26%;
+    pointer-events: none;
+}
+.quan .chou{
+    width: 100% !important;
+    /*z-index: 5;*/
+}
+.quanq{
+    display: none;
+    /*z-index: 1;*/
+}
+
+.chou-tap{
+  left: 37%;
+  top: 35.5%;
+  height: 24%;
+  width: 26%;
+  position: absolute;
+  pointer-events: auto;
+}
+
+.button-img{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    bottom: 3%;
+    height: 4%;
+    pointer-events: auto;
+}
