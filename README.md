@@ -1,0 +1,2 @@
+# squaredUp
+squaredUp-jquery
