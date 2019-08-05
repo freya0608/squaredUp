@@ -38,8 +38,8 @@ $(document).ready(function () {
     		return;
     	}
     	flag = false;
-                  //end表示抽到的积分或者券的位子
-            end = 5;
+    	//end表示抽到的位子
+      end = 5;
         getPrize(0,end,round,ms);
         function getPrize(start,end,round,interval){
             var nowNum = start;
